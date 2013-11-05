@@ -22,6 +22,10 @@ end
 
 gem 'jquery-rails'
 
+group :production do
+  gem 'pg'
+end
+
 # gem 'instagram'
 
 # To use ActiveModel has_secure_password
