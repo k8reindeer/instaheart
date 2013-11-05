@@ -20,6 +20,7 @@ group :assets do
 end
 
 gem 'jquery-rails'
+gem 'httparty'
 
 group :production do
   gem 'pg'
